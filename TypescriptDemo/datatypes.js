@@ -1,0 +1,37 @@
+"use strict";
+let lname;
+lname = "Santosh";
+let newname = lname.toUpperCase();
+console.log(newname);
+let age;
+let tcNO;
+tcNO = 12345678910;
+console.log(tcNO);
+age = 25;
+age = 25.5;
+let dob = "25";
+let result = parseInt(dob);
+let isValid = false;
+console.log(isValid);
+let empList;
+empList = ["Santosh", "Santosh1", "Santosh2"];
+let numList;
+numList = [1, 2, 3, 4, 5];
+// let newNum = numList[5];
+let results = numList.filter((num) => num > 2);
+let emp = empList.find((emp) => emp === "Santosh");
+let sum = numList.reduce((acc, num) => acc + num);
+console.log(results);
+console.log(emp);
+console.log(sum);
+let c = 2 /* Color.Blue */;
+let swapNumbs;
+function swapNumbers(num1, num2) {
+    return [num2, num1];
+}
+swapNumbs = swapNumbers(10, 20);
+console.log(swapNumbs[0]);
+console.log(swapNumbs[1]);
+let department;
+department = "IT";
+department = 10;
