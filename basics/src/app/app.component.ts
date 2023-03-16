@@ -8,8 +8,23 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'basics';
-  name = 'Luis';
+  name = 'luis raigosa';
   imgUrl = 'https://fastly.picsum.photos/id/237/500/500.jpg?hmac=idOEkrJhLd7nEU5pNrAGCyJ6HHJdR_sit1qDt5J3Wo0'
+  images = [
+    "https://fastly.picsum.photos/id/237/500/500.jpg?hmac=idOEkrJhLd7nEU5pNrAGCyJ6HHJdR_sit1qDt5J3Wo0",
+    "https://fastly.picsum.photos/id/237/500/500.jpg?hmac=idOEkrJhLd7nEU5pNrAGCyJ6HHJdR_sit1qDt5J3Wo0",
+    "https://fastly.picsum.photos/id/237/500/500.jpg?hmac=idOEkrJhLd7nEU5pNrAGCyJ6HHJdR_sit1qDt5J3Wo0"
+  ]
+  currentDate = new Date();
+  cost = 2000;
+  tempature = 25.3;
+  pizza = {
+    toppings: ['pepperoni', 'bacon', 'cheese'],
+    price: 10
+  }
+
+  blueClass = false;
+  fontSize = 16;
 
   getName() {
     return this.name;
